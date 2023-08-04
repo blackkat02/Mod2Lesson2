@@ -1,0 +1,5 @@
+text = open("ValueError.py")
+x = text.read()
+y = x.split()
+print(len(y))
+text.close()
